@@ -49,7 +49,7 @@ end
 - It should appear above the tab key, 
 - but it may vary based on your keyboard layout.
 
-<img width="200px" src="backtick-key.jpg" />
+<img width="200px" src="assets/backtick-key.jpg" />
 
 Good Cloud Engineers use codeblocks for both Code and Errors that appear in the console.
 
@@ -83,7 +83,7 @@ This is what a screenshot from your computer should look like
 
 **DO THIS INSTEAD**
 
-![Screenshot example](screenshot-example.png)
+![Screenshot example](screenshot-example.jpg)
 
 To take screenshots on both macOS and Windows, you can use the following hotkeys:
 
