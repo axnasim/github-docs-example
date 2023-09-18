@@ -49,7 +49,7 @@ end
 - It should appear above the tab key, 
 - but it may vary based on your keyboard layout.
 
-<img width="200px" src="asset/backtick-key.jpg" />
+<img width="200px" src="/asset/backtick-key.jpg" />
 
 Good Cloud Engineers use codeblocks for both Code and Errors that appear in the console.
 
@@ -77,7 +77,7 @@ This is not be confused with take a photo with your phone.
 
 **DON'T DO THIS**
 
-![a photo with your phone](asset/phone-photo.jpg)
+![a photo with your phone](/asset/phone-photo.jpg)
 
 This is what a screenshot from your computer should look like
 
@@ -166,7 +166,7 @@ Github extends the functionality of Markdown tables to provide more alignment an
 - It should appear above return or enter key
 - but it may vary based on your keyboard layout.
 
-![Photo of the pipe character on our keyboard](asset/pipe-char.jpg)
+![Photo of the pipe character on our keyboard](/asset/pipe-char.jpg)
 
 [Secret Window Hidden Garden](secret-window/hidden-garden.md)
 
