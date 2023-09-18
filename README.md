@@ -30,23 +30,18 @@ end
 - When you can you should attempt to apply syntax highlighting to your codeblocks
 
 ```ruby
-def factorial(n)
-  if n == 0 || n == 1
-    return 1
-  else
-    return n * factorial(n - 1)
+# Define a Person class
+class Person
+  # Constructor
+  def initialize(name, age)
+    @name = name    # Instance variable for the person's name
+    @age = age      # Instance variable for the person's age
   end
-end
 
-# Test the factorial function
-puts "Enter a number to calculate its factorial:"
-number = gets.chomp.to_i
-
-if number < 0
-  puts "Factorial is not defined for negative numbers."
-else
-  result = factorial(number)
-  puts "The factorial of #{number} is #{result}"
+  # Instance method to return a greeting
+  def greeting
+    "Hello, my name is #{@name} and I am #{@age} years old."
+  end
 end
 ```
 
@@ -183,6 +178,3 @@ Github extends the functionality of Markdown tables to provide more alignment an
 - [GFM - Tasks Lists](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)  <sup>[1]</sup>
 - [GFM - Emoji CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet)
 - [GFM - Tables (with extensions)](https://github.github.com/gfm/#tables-extension-) <sup>[2]</sup>
-
-
-
